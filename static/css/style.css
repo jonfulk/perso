@@ -1,0 +1,63 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 50px;
+}
+
+.title-font {
+  color: #A81E14;
+}
+
+.smaller-img {
+  max-width: 250px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  float: right;
+}
+
+.row-tall {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.fixed-bg {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.channels {
+  max-width: 32px;
+}
+
+.bg-1 {
+  background-image: url(../img/pariscape_blue.jpg);
+}
+
+.invisible-box {
+  max-width: 800px;
+  padding: 50px;
+  margin: 0 auto 0;
+}
+
+.bg-2 {
+  background-image: url(../img/pariscape_bw.jpg);
+}
+
+.color-bg {
+  background-color: #F4F4F4;
+}
+
+.screen {
+  transition: all .2s ease-in-out;
+}
+
+.screen:hover {
+  filter: brightness(130%);
+  transform: scale(1.05);
+}
+
+.links {
+  display:table;
+  margin:0 auto;
+}

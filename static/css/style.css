@@ -3,19 +3,26 @@ body {
   padding-top: 50px;
 }
 
+div {
+  border: 1px solid red;
+}
+
+footer {
+  background-color: rgb(228, 228, 228);
+}
+
 .title-font {
   color: #A81E14;
 }
 
 .smaller-img {
   max-width: 250px;
-  border-color: black;
-  border-width: 2px;
-  border-style: solid;
   float: right;
+  padding: 10px;
 }
 
 .row-tall {
+  border: 1px dashed pink;
   padding-top: 50px;
   padding-bottom: 100px;
 }
@@ -23,7 +30,9 @@ body {
 .fixed-bg {
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: cover;
+  background-size: 100% 100%;
+
 }
 
 .channels {

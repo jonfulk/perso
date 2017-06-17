@@ -41,21 +41,15 @@
     <div class="row row-tall fixed-bg bg-1" id="about">
       <div class="well col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
         <h1 class="title-font text-center">Jonathan Fulk</h1>
-        <h3 class="text-center">Web Application Developer</h3>
+        <h3 class="text-center">Developer | Freelancer | Teacher</h3>
         <br />
         <img class="img-circle smaller-img img-responsive" src="./static/img/jon.jpg">
         <p>
-          Hello. I'm Jon. I've been a French instructor at the University of Minnesota for the last 10 years, but this site is all
-          about my other passion: web development. When I was still an undergrad in the 90s, I started creating simple websites
-          before CSS was a thing. A few years ago, I realized that, while I was busy reading Zola and learning about the
-          latest research in Second Language Acquisition, the web dev world had changed quite a bit. So, by taking a series
-          of courses, reading lots of documentation, and being mentored by a good friend and experienced software devloper,
-          I brought my Javascript and Python skills up-to-speed and realized that I should have been doing this all along.
-          I want to create software that is <strong>simple to use, beautiful to look at, and useful for solving problems.</strong>
+          As an undergrad in the 90s, I started creating simple websites while studying to become a French teacher. A few years ago, I made it my goal to create web applications that are <strong>simple to use, beautiful to look at, and useful for solving problems.</strong> While I still love the French language and culture, I am in the process of making web development my full-time career. If you have a project that you need help with -- personal or professional -- let's get coffee and discuss it!
           <br />
-          <br /> Take a look at a few of my <a href="#projects">sample projects</a> below and <a href="#contact">contact me</a>
-          if you need a custom website or have a problem I can help you solve. I'm available for freelance jobs, but I am also actively
-          seeking a full-time position as a web application developer. Feel free to <a href="/resume">check out my resume</a> if you have an opening.
+          <br />You can take a look at a few <a href="#projects">sample projects</a> below and <a href="#contact">contact me</a>
+          if you have a problem I can help you solve. I'm available for freelance jobs, and I am actively
+          seeking a full-time position as a web application developer. Feel free to <a href="/resume">check out my resume</a>if you have an opening.
         </p>
       </div>
     </div>
@@ -86,6 +80,7 @@
         </div>
       </div>
     </div>
+    <!--Contact Form-->
     <div class="row row-tall fixed-bg bg-2" id="contact">
       <div class="well col-xs-10 col-xs-offset-1 col-lg-6 col-lg-offset-3">
         <h2 class="title-font">Contact</h2>
@@ -102,21 +97,6 @@
           <input type="hidden" name="_next" value="#thanks" />
           <button type="submit" class="btn btn-default">Submit</button>
         </form>
-
-
-        <!--modal: thanks-->
-        <div id="thanks" class="modalDialog">
-          <div>
-            <a href="#close" title="Close" class="close">X</a>
-            <h2>Thanks!</h2>
-            <br />
-            <p>Your message is on its way.</p>
-            <p>I'll get back to you as soon as I can.</p>
-            <br />
-            <p>Jon</p>
-          </div>
-        </div>
-
         <div class="row text-center">
           <a href="https://www.linkedin.com/in/jonathan-fulk-18ab2788"><img src="./static/img/linkedin.png" alt="linkedin"></a>
           <a href="https://github.com/jonfulk"><img src="./static/img/github.png" alt="github"></a>
@@ -130,8 +110,25 @@
       &copy JKF. All Rights Reserved.
     </div>
   </footer>
-
-
+  <!--modal: thanks-->
+  <div id="thanks" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title">Thanks!</h2>
+        </div>
+        <div class="modal-body text-center">
+          <h4>Your message is on its way.<h4>
+          <h4>I'll get back to you as soon as I can.</h4>
+          <h3>Jon</h3>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <script src='static/js/jquery-1.11.1.min.js'></script>
   <script src='static/js/bootstrap-3.1.1.min.js'></script>
 </body>

@@ -7,6 +7,10 @@ footer {
   background-color: rgb(228, 228, 228);
 }
 
+.box {
+  padding-top: 3.5em;
+}
+
 .title-font {
   color: #A81E14;
 }
@@ -37,18 +41,16 @@ footer {
   background-image: url(../img/pariscape_blue.jpg);
 }
 
-.invisible-box {
-  max-width: 800px;
-  padding: 50px;
-  margin: 0 auto 0;
-}
-
 .bg-2 {
   background-image: url(../img/pariscape_bw.jpg);
 }
 
 .color-bg {
   background-color: #F4F4F4;
+}
+
+.outline {
+  border: 1px solid black;
 }
 
 .screen {

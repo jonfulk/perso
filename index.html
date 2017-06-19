@@ -54,30 +54,46 @@
         </p>
       </div>
     </div>
-    <div class="row row-tall" id="projects">
-      <h2 class="title-font text-center">Projects</h2>
-      <div class="col-md-4">
-        <div class="screen">
-          <h3>Quote Generator</h3>
-          <a href="http://codepen.io/jonfulk/full/GoJZvq/" target="_blank">
-            <img class="img-responsive" src="./static/img/quote.jpg">
-          </a>
+    <div class="row row-tall color-bg" id="projects">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h2 class="title-font">Projects</h2>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="screen">
-          <h3>Pomodoro Clock</h3>
-          <a href="http://codepen.io/jonfulk/full/yeOKMp/" target="_blank">
-            <img class="img-responsive" src="./static/img/clock.jpg">
-          </a>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <!--Project: SJ-->
+          <div class="col-md-6" data-toggle="modal" data-target="#sj-modal">
+            <div class="screen">
+              <h3>Social Joey</h3>
+              <img class="img-responsive outline" src="./static/img/sj.jpg">
+            </div>
+          </div>
+          <!--Project: JS Calculator-->
+          <div class="col-md-6" data-toggle="modal" data-target="#calc-modal">
+            <div class="screen">
+              <h3>Javascript Calculator</h3>
+              <img class="img-responsive outline" src="./static/img/calc.jpg">
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="screen">
-          <h3>Javascript Calculator</h3>
-          <a href="http://codepen.io/jonfulk/full/VepKMR/" target="_blank">
-            <img class="img-responsive" src="./static/img/calc.jpg">
-          </a>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <!--Project: Clock-->
+          <div class="col-md-6" data-toggle="modal" data-target="#clock-modal">
+            <div class="screen">
+              <h3>Pomodoro Clock</h3>
+              <img class="img-responsive outline" src="./static/img/clock.jpg">
+            </div>
+          </div>
+          <!--Project: Quote-->
+          <div class="col-md-6" data-toggle="modal" data-target="#quote-modal">
+            <div class="screen">
+              <h3>Quote Generator</h3>
+              <img class="img-responsive outline" src="./static/img/quote.jpg">
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -130,6 +146,89 @@
       </div>
     </div>
   </div>
+  <!--modal: SJ-->
+  <div id="sj-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title">Social Joey / bobwaycott.com</h2>
+        </div>
+        <div class="modal-body">
+          <p>Here is some info about the project.</p>
+          <p>Here is a list of tech I used: some tech, some more tech, and some more tech</p>
+          <a href="https://socialjoey.com" target="_blank" class="btn btn-default">View Live Site</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--modal: Calc-->
+  <div id="calc-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title">
+            Javascript Calculator / freeCodeCamp <i class="fa fa-free-code-camp"></i>
+          </h2>
+        </div>
+        <div class="modal-body">
+          <p>Here is some info about the project.</p>
+          <p>Here is a list of tech I used: some tech, some more tech, and some more tech</p>
+          <a href="https://socialjoey.com" target="_blank" class="btn btn-default">View Live Site</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--modal: Clock-->
+  <div id="clock-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title">
+            Pomodoro Clock / freeCodeCamp <i class="fa fa-free-code-camp"></i>
+          </h2>
+        </div>
+        <div class="modal-body">
+          <p>Here is some info about the project.</p>
+          <p>Here is a list of tech I used: some tech, some more tech, and some more tech</p>
+          <a href="https://socialjoey.com" target="_blank" class="btn btn-default">View Live Site</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--modal: Quote-->
+  <div id="quote-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title">
+            Quote Machine / freeCodeCamp <i class="fa fa-free-code-camp"></i>
+          </h2>
+        </div>
+        <div class="modal-body">
+          <p>Here is some info about the project.</p>
+          <p>Here is a list of tech I used: some tech, some more tech, and some more tech</p>
+          <a href="https://socialjoey.com" target="_blank" class="btn btn-default">View Live Site</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--scripts-->
   <script src='static/js/jquery-1.11.1.min.js'></script>
   <script src='static/js/bootstrap-3.1.1.min.js'></script>
 </body>

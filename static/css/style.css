@@ -17,8 +17,8 @@ footer {
 
 .smaller-img {
   max-width: 250px;
-  float: right;
   padding: 10px;
+  margin: 0 auto;
 }
 
 .row-tall {
